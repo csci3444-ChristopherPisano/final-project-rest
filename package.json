@@ -1,0 +1,24 @@
+{
+    "name": "final_project_rest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test_unitTests_via_jasmine-node",
+        "test_unitTests_via_jasmine-node": "./node_modules/.bin/jasmine-node --matchall test",
+        "start": "npm run start_via_nodemon",
+        "start_via_nodemon": "nodemon src/main_restServer.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "mongoose": "^4.13.7"
+    },
+    "devDependencies": {
+        "jasmine-node": "^1.14.5"
+    },
+    "keywords": [],
+    "author": "Chris Pisano",
+    "license": "ISC"
+}
